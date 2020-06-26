@@ -1,0 +1,89 @@
+#menuBG {
+    width: 400px;
+    height: 470px;
+    margin: 10px auto;
+}
+
+#frmMenu {
+    width: 600px;
+    height: 200px;
+    margin: 0 -33%;
+}
+
+#totalPrice {
+    width: 200px;
+    height: 190px;
+    margin: 0 auto;
+    float: right;
+}
+
+.left {
+    width: 200px;
+    height: 300px;
+    float: left;
+}
+
+.right {
+    width: 200px;
+    height: 300px;
+    float: right;
+}
+
+#showText {
+    width: 400px;
+    height: 190px;
+    margin: 0px auto;
+    float: left;
+}
+
+#cart {
+    top: 0;
+    margin: 0 auto;
+    width: 600px;
+    height: 300px;
+}
+
+#btnOrder {
+    margin: 10px 0px 0px 100px;
+    width: 100px;
+    height:40px;
+}
+body {
+    background-color: forestgreen;
+}
+
+h1 {
+    font-family: "OrderPizza" ;
+    color: rgb(83, 7, 7);
+}
+
+h3 {
+    font-family: "ChunkyCheese";
+    color: goldenrod;
+    font-weight: 200;
+}
+
+div {
+    font-family: "MuralamiRilapika" ;
+    font-weight: 800;
+    font-size: 1.2em;
+    color: #992525;
+}
+
+/* Adding custom fonts to the document */
+
+@font-face {
+    font-family: "MuralamiRilapika";
+    src: url("./fonts/Murakamirilapika-673g.ttf");
+}
+
+@font-face {
+    font-family: "OrderPizza";
+    src: url("./fonts/OrderPizza-97J2.ttf")
+}
+
+@font-face {
+    font-family: "ChunkyCheese";
+    src: url("./fonts/ChunkyCheese-P4pB.ttf")
+}
+
